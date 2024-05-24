@@ -14,9 +14,5 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val name = findViewById<EditText>(R.id.name)
-        val password = findViewById<EditText>(R.id.password)
-        val carName = findViewById<EditText>(R.id.carName)
-        val carBrand = findViewById<EditText>(R.id.carBrand)
     }
 }
